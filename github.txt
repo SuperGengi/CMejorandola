@@ -1,7 +1,5 @@
 Repositorio de código de GITHUB (master)
 
-Clase Mejorando.la
-
 hacen un clon, se actualiza con un commit y se sincroniza
 
 Ventajas:
