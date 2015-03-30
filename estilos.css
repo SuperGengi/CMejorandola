@@ -132,11 +132,12 @@ header #logo img
 
 	padding-right: 0.5em;
 	width: 52px;
-	-webkit-transition:0.5s;
+	
 }
 header #logo img:hover
 {
 	-webkit-transform: rotate(360deg); /*Chrome*/
+	-webkit-transition:0.5s;
 }
 nav
 {
@@ -283,7 +284,7 @@ aside
 		float: left;
 		
 	}
-	#contenido .item:nth-child(odd)/*Toma valores impar*/
+	#contenido .item:nth-child(odd)/*Toma valores impar, "even" toma los elementos pares, un numero para tomar alguna casa precisa*/
 	{
 		margin-right: 2%;
 	}
